@@ -186,6 +186,7 @@ img {
 .banner-img-mobile {
     left: 0;
     bottom: 5rem;
+    z-index: 1;
 }
 
 .banner-img-pad {
