@@ -1,3 +1,5 @@
+
+
 .ani {
   transition-duration: 1s;
 }
@@ -24,6 +26,7 @@
 
 .ani-fadeIn {
   opacity: 0;
+  animation: forwards;
 }
 
 .ani-fadeIn-active {

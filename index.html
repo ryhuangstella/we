@@ -29,7 +29,7 @@
             </a>
         </div>
         <!-- 導覽列 -->
-        <div class="header-body">
+        <div id="HeaderBody" class="header-body">
             <nav class="header-nav">
                 <ul class="header-ul">
                     <li class="header-li">
@@ -46,14 +46,14 @@
                     </li>
                 </ul>
                 <!-- 漢堡選單的x-icon -->
-                <button class="header-btn header-btn-xmark" type="button">
+                <button id="HeaderBtnXmark" class="header-btn header-btn-xmark" type="button">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
             </nav>
         </div>
         <!-- 漢堡選單icon -->
         <div class="header-foot">
-            <button class="header-btn header-btn-bars" type="button">
+            <button id="HeaderBtnBars" class="header-btn header-btn-bars" type="button">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
@@ -62,7 +62,7 @@
     <section class="banner banner-index">
         <div class="banner-container container mx-auto">
             <div class="banner-head">
-                <h1 class="banner-title ani-FadeIn">
+                <h1 class="banner-title ani-FadeIn ">
                     RWD 響應式網頁設計專門家
                     <small class="banner-small">web design specialist</small>
                 </h1>
@@ -324,10 +324,10 @@
 
     <footer class="footer">
         <div class="footer-head">
-            <img class="footer-img footer-img-logo" src="./images/logo-footer.png" width="60" height="58" alt="we studio" >
+            <img class="footer-img footer-img-logo " src="./images/logo-footer.png" width="60" height="58" alt="we studio" >
             <p class="footer-desc">&copy; 2024 we studio</p>
         </div>
-        <ul class="footer-ul">
+        <ul class="footer-ul footer-body">
             <li class="footer-li">
                 <a class="footer-link" href="./service.html">what we do</a>
             </li>
@@ -350,5 +350,8 @@
             </a>
         </div>
     </aside>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/all.js"></script>
 </body>
 </html>
